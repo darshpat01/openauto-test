@@ -1,0 +1,92 @@
+.landingnav{
+    padding-top: 2em!important;
+    background-color: black!important;
+    margin-bottom: 3em;
+}
+
+.landingbody-maindiv{
+    
+    color: white;
+    text-align: left;
+    
+}
+
+.landing-inp{
+    display: block;
+    margin: 0.5em;
+}
+
+.inp-grp{
+    background-color: rgba(0, 0, 0, 0);
+    border-width:0px;
+    border:1px solid white;
+    padding: 0.8em;
+    color: white;
+    border-radius: 2em;
+    width: 60%;
+}
+
+.inps{
+    margin-bottom: 1em;
+}
+
+.img1{
+   height: 500px;
+}
+
+.p1{
+    font-size: 4em;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.p2{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.brand-text{
+    font-size: 2em!important;
+}
+
+.landingpage-body2{
+    padding-top: 10em;
+    padding-bottom: 8em;
+}
+
+.inp-grp-a{
+    text-decoration: none;
+   
+}
+
+.link-circle{
+    border: 1px solid white;
+    border-radius: 2em;
+    margin-right: 0em!important;
+}
+
+.nav-link{
+    margin-right: 1em;
+}
+
+.inp-btn:hover{
+    background-color: #a80acc!important;
+}
+
+.ln-2{
+    border-top: 1px solid grey;
+}
+
+.left-text{
+    font-weight: 100!important;
+}
+
+.nav2-head{
+    color: white;
+}
+
+.insta-icon{
+    color: white!important;
+}
+
+
