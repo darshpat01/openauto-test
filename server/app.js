@@ -2,6 +2,9 @@ const User = require('./model/user');
 var bodyParser = require('body-parser'); 
 const mongoose = require('mongoose');
 const express = require('express');
+
+
+require('dotenv').config();
 // const cors = require('cors');
 
 const app = express(); 
@@ -20,7 +23,7 @@ app.use(
 //   }
 
 
-mongoose.connect("mongodb+srv://darshan:darsh123456@cluster0.6r0ou.mongodb.net/openauto?retryWrites=true&w=majority", {});
+mongoose.connect(process.env.db_connection, {});
 
 const db = mongoose.connection;
 
